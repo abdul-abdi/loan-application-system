@@ -1,0 +1,13 @@
+{
+    "canisters": {
+        "loan application system": {
+            "type": "custom",
+            "main": "src/index.ts",
+            "candid": "src/index.did",
+            "build": "npx azle loan application system",
+            "wasm": ".azle/loan application system/loan application system.wasm",
+            "gzip": true
+        }
+    }
+}
+
